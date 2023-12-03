@@ -27,3 +27,9 @@ Handlining missing values was challenging considering the fact that few of these
 
 ## Project Learnings
 This project being end to end (from Identifying business problem, EDA, Modeling to deriving business values), it was a good experience to thoroughly delve into each of these stages. I brushed up my knowledge of EDA and Logistic Regression, Random Forest models. In addition, I have had invaluable learnings on researching methodology for feature engineering, GXBM & LGBM and Neural Net models. Towards the end, business value was a basic ROC-AUC curve and feature importance chart in all of my past projects. But this time, I dived into the world of XAI and leveraged SHAP library to explain black box model predictions. This turned out to be very interesting and I look forward to dig deeper into these libraries in my next endeavors. 
+
+### Link to PPT
+[https://github.com/Abinav-Yadamani/Credit-Default-Risk-Prediction-MSBA-Capstone-Project/blob/main/HOMECREDIT.pptx](url)
+
+### Link to ipynb project file
+[https://github.com/Abinav-Yadamani/Credit-Default-Risk-Prediction-MSBA-Capstone-Project/blob/main/Home_Credit_Group_Project_Final%20(3).ipynb](url)
