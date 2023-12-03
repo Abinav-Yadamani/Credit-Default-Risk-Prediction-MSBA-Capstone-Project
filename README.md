@@ -11,10 +11,15 @@ Though I have a good grip and understanding of the entire project, I was primari
 
 ## Business Value 
 ●	Home Credit can use the model to make prediction of future loan applications to confidently make decision of which customers to provide loans to.
+
 ●	The SHAP Tree Explainer plot shall empower Home Credit to explain model predictions at a individual application level and will help take informed decision on why a given customer  will be approved/rejected of loan. 
+
 ●	This improved decision making will lead to low risk and Non-Performing Assets.
+
 ●	The model along with tree explainer plot will lead to a automated, faster, efficient & streamlined loan approval process. 
+
 ●	The SHAP value will determine the loan default risk associated with each customer. This shall help Home Credit to tailor credit limits, interest rates based on risk involved. 
+
 ●	The model can be used to predict loan repayment behavior for all the current active loan applications to identify customers with greater chances to default. This would allow the firm to take certain proactive measures such as financial counseling, frequently monitoring credit scores and activity in order to prevent defaults in the future. 
 
 ## Challenges
