@@ -1,13 +1,13 @@
 # MSBA Capstone – Home Credit Default Risk Prediction
 
 ## Business Problem & Project Objective
-Many people struggle to get loans due to insufficient or non-existent credit histories and this population is often taken advantage of by untrustworthy lenders. Home Credit, a consumer finance firm provides loans dedicated to the unbanked population. This financial inclusion effort often costs Home Credit as it involves a high risk of loan defaults. However, the business strives to ensure that clients capable of repayment are not rejected from lending. Hence, to be able to take better lending decisions, the firm wants to use historical loan application data to predict whether or not an applicant will be able to repay the loan.
+Many people struggle to get loans due to insufficient or non-existent credit histories and this population is often taken advantage of by untrustworthy lenders. Home Credit, a consumer finance firm provides loans dedicated to the unbanked population. This financial inclusion effort often costs Home Credit as it involves a high risk of loan defaults. However, the business strives to ensure that clients capable of repayment are not rejected from lending. Hence, to be able to take low risk and informed lending decisions, the firm wants to use historical loan application data to predict whether or not an applicant will be able to repay the loan.
 
 ## Solution
 The solution to this problem would include the development of supervised predictive classification models since we have historical labelled data and as the outcome of the target variable is binary with values of 0 and 1, indicating that the potential customer will repay the loan on time or will have difficulty repaying loan respectively. This involves Logistic Regression and use of ensemble methods for extracting a list of customers with higher probabilities of loan repayment. The best test AUC and Kaggle score obtained were around 0.76 with the LightXGB model. 
 
 ## My Contribution
-Though I have a good grip and understanding of the entire project, I was primarily responsible for Under & SMOTE Sampling, Baseline Random Forest, XG Boost and Neural Networks models, ROC-AUC Curves, Test Set Preparation, Feature Importance, XAI & SHAP Plots, Templates for Final Predictions & Model Score Summary. Towards the end I proof Read and made final edits.
+I was primarily responsible for implementing Under & SMOTE Sampling, Baseline Random Forest, XG Boost and Neural Networks models, ROC-AUC Curves, Test Set Preparation, Feature Importance, XAI & SHAP Plots, Templates for Final Predictions & Model Score Summary. Towards the end I proof Read and made final edits.
 
 ## Business Value 
 ●	Home Credit can use the model to make prediction of future loan applications to confidently make decision of which customers to provide loans to.
