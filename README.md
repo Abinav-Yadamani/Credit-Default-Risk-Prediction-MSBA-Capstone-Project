@@ -7,7 +7,7 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 The solution to this problem would include the development of supervised predictive classification models since we have historical labelled data and as the outcome of the target variable is binary with values of 0 and 1, indicating that the potential customer will repay the loan on time or will have difficulty repaying loan respectively. This involves Logistic Regression and use of ensemble methods for extracting a list of customers with higher probabilities of loan repayment. The best test AUC and Kaggle score obtained were around 0.76 with the LightXGB model. 
 
 ## My Contribution
-I was primarily responsible for implementing Under & SMOTE Sampling, Baseline Random Forest, XG Boost and Neural Networks models, ROC-AUC Curves, Test Set Preparation, Feature Importance, XAI & SHAP Plots, Templates for Final Predictions & Model Score Summary. Towards the end I proof Read and made final edits.
+I was primarily responsible for implementing baseline Random Forest, XG Boost and Neural Networks models and Under & SMOTE Sampling of these models, ROC-AUC Curves for model comparison, Test Set Preparation, Feature Importance chart, XAI & SHAP plots, templates for final predictions & model score summary. Towards the end, I proof read and made final edits.
 
 ## Business Value 
 ●	Home Credit can use the model to make prediction of future loan applications to confidently make decision of which customers to provide loans to.
