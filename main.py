@@ -117,9 +117,15 @@ xgb_roc_auc = roc_auc_score(y_test, xgb_y_pred)
 xgb_accuracy = accuracy_score(y_test, y_pred)
 
 # pickle the model
-import pickle
-with open('model.pkl', 'wb') as file:
-    pickle.dump(xgb_model, file)
+# import pickle
+# with open('model.pkl', 'wb') as file:
+#     pickle.dump(xgb_model, file)
+
+# Save the trained model to a file
+xgb_model.save_model('xgboost_model.json')
+
+
+
 
 print(f'Tuned XGB Train ROC-AUC Score: {xgb_train_roc_auc}')
 print(f'Tuned XGB Test ROC-AUC Score: {xgb_roc_auc}')

@@ -39,12 +39,20 @@ def main():
 
     test = pd.DataFrame(data)
 
-    import pickle
-    with open('model.pkl', 'rb') as file:
-        loaded_model = pickle.load(file)
+    # import pickle
+    # with open('model.pkl', 'rb') as file:
+    #     loaded_model = pickle.load(file)
+    import xgboost
+    # Load the saved model
+    loaded_model = xgboost.Booster(model_file='xgboost_model.json')
+
+    dtest = xgboost.DMatrix(test, label=test)
+    # Make predictions with the loaded model
+    predictions = loaded_model.predict(dtest)
 
     # Make predictions using the loaded model
-    predictions = loaded_model.predict(test)
+    #predictions = loaded_model.predict(test)
+
     print(predictions)
     # Submit button
     if st.button("Submit"):
